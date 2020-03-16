@@ -5,6 +5,8 @@ to find students to take care of their children during the Coronavirus outbreak 
 
 **Site internet permettant aux Archis Gadz'Arts de trouver des PGs pour garder leurs enfants pendant la crise du coronavirus en France.**
 
+![App demo](https://github.com/fcaylus/solidarite-gadzarts-covid/raw/master/showcase.gif)
+
 Made with React and Next.js in one day to be available as soon as possible.
 
 To use the website, you need a registered gadz.com account (only available for the alumni).
