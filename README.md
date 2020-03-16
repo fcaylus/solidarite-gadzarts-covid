@@ -1,5 +1,7 @@
 # Solidarité Gadz'Arts Covid-19
 
+[![License](https://img.shields.io/github/license/fcaylus/solidarite-gadzarts-covid?style=for-the-badge)](https://github.com/fcaylus/solidarite-gadzarts-covid/blob/master/LICENSE)
+
 A single page application to help Gadz'Arts alumni (from [Arts et Métiers](https://artsetmetiers.fr/) school) 
 to find students to take care of their children during the Coronavirus outbreak in France.
 
