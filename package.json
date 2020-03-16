@@ -1,0 +1,42 @@
+{
+  "name": "solidarite-covid",
+  "description": "Solidarité entre Gadz pour la garde de vos enfants",
+  "version": "0.0.1",
+  "private": true,
+  "license": "MIT",
+  "dependencies": {
+    "@material-ui/core": "^4.9.5",
+    "@material-ui/icons": "^4.9.1",
+    "@material-ui/styles": "^4.9.0",
+    "@types/cookie": "^0.3.3",
+    "@types/cssnano": "^4.0.0",
+    "@types/node": "^12.0.0",
+    "@types/react": "^16.9.0",
+    "@types/react-dom": "^16.9.0",
+    "axios": "^0.18.1",
+    "clsx": "^1.0.4",
+    "cookie": "^0.4.0",
+    "cssnano": "^4.1.10",
+    "http-status-codes": "^1.4.0",
+    "next": "^9.2.1",
+    "postcss": "^7.0.27",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "typescript": "~3.7.2"
+  },
+  "devDependencies": {
+    "@types/csv-parse": "^1.2.2",
+    "babel-plugin-import": "^1.13.0",
+    "csv-parse": "^4.8.8",
+    "fuse.js": "^5.0.1-beta",
+    "ts-node": "^8.6.2"
+  },
+  "scripts": {
+    "watch": "next -p 1234",
+    "build": "next build",
+    "start": "next start -p 1234",
+    "watch-sample": "SAMPLE_WEBSITE=1 yarn run watch",
+    "build-sample": "SAMPLE_WEBSITE=1 yarn run build",
+    "generateData": "ts-node -O '{\"module\": \"commonjs\"}' src/data/generateData.ts"
+  }
+}

@@ -1,0 +1,22 @@
+{
+    "name": "Solidarité Covid-19",
+    "short_name": "Solidarité Covid-19",
+    "description": "Solidarité entre Gadz pour la garde de vos enfants",
+    "icons": [
+        {
+            "src": "/android-chrome-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "/android-chrome-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ],
+    "theme_color": "#792266",
+    "background_color": "#792266",
+    "display": "standalone",
+    "orientation": "portrait",
+    "start_url": "/"
+}

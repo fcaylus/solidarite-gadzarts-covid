@@ -1,0 +1,26 @@
+[
+  {
+    "email": "fxxxxx.cxxxxx@gadz.org",
+    "nom": "Cccccccc",
+    "prenom": "Dddd",
+    "departements": [
+      "01"
+    ],
+    "ville": "Mâcon",
+    "tbk": "KIN",
+    "proms": "217",
+    "telephone": "07********"
+  },
+  {
+    "email": "aaaaaa.bbbbbb@gadz.org",
+    "nom": "Aaaa",
+    "prenom": "Bbbbbb",
+    "departements": [
+      "01"
+    ],
+    "ville": "City with a long name",
+    "tbk": "KIN",
+    "proms": "217",
+    "telephone": "06********"
+  }
+]
