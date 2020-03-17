@@ -2,10 +2,16 @@
 
 [![License](https://img.shields.io/github/license/fcaylus/solidarite-gadzarts-covid?style=for-the-badge)](https://github.com/fcaylus/solidarite-gadzarts-covid/blob/master/LICENSE)
 
+**DISCLAIMER: Due to the ongoing lockdown of France, this initiative is discontinued, according to the government decisions.**
+
+**ATTENTION: Suite au confinement général décidé par le gouvernement, cette initiative n'est plus disponible, et nous invitons tout
+le monde à suivre les consignes officielles. Merci au soutien de la SOCE lors de ce projet, c'est en effet dans ces situations exceptionnelles que la solidarité de
+notre communauté prend tout son sens.**
+
 A single page application to help Gadz'Arts alumni (from [Arts et Métiers](https://artsetmetiers.fr/) school) 
 to find students to take care of their children during the Coronavirus outbreak in France.
 
-**Site internet permettant aux Archis Gadz'Arts de trouver des PGs pour garder leurs enfants pendant la crise du coronavirus en France.**
+Site internet permettant aux Archis Gadz'Arts de trouver des PGs pour garder leurs enfants pendant la crise du coronavirus en France.
 
 ![App demo](https://github.com/fcaylus/solidarite-gadzarts-covid/raw/master/showcase.gif)
 

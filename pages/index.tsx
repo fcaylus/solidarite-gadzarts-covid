@@ -5,7 +5,7 @@ import Search from "../src/app/components/Search";
 import {PG} from "../src/data/interfaces/PG";
 import LocalApi from "../src/app/LocalApi";
 import Results from "../src/app/components/Results";
-import {Box, Typography} from "@material-ui/core";
+import {Box, Dialog, DialogContent, DialogTitle, Typography} from "@material-ui/core";
 import IconsList from "../src/app/components/IconsList";
 
 const useStyles = makeStyles((theme: Theme) => ({
@@ -57,7 +57,7 @@ export default function IndexPage() {
     // Fetch the number of PGs when the component mount
     useEffect(() => {
         LocalApi().get("pgs/count").then((result) => {
-            if(result && !result.error) {
+            if (result && !result.error) {
                 setPgCount(result.data.count);
             }
         })
@@ -125,6 +125,38 @@ export default function IndexPage() {
                 je m'engage à ne pas me retourner contre l'UE en cas de contamination de moi-même ou de
                 quelqu'un d'autre.
             </Typography>
+
+            {/* Dialog that explains while the service was discontinued */}
+            <Dialog open disableBackdropClick disableEscapeKeyDown
+                    aria-labelledby="discontinued-dialog-title">
+                <DialogTitle id="discontinued-dialog-title">
+                    ❌ Arrêt du dispositif solidaire ❌
+                </DialogTitle>
+                <DialogContent>
+                    <Typography variant="body1" gutterBottom>
+                        Au vu des récentes annonces du gouvernement, nous avons évidemment pris la décision de mettre
+                        fin à l'initiative solidaire de garde d'enfants.<br/>
+                    </Typography>
+                    <Typography variant="body1">
+                        👩‍✈️👨‍✈️👩‍✈️
+                    </Typography>
+                    <Typography variant="body1" gutterBottom>
+                        Nous tenions à remercier tous les élèves qui se sont massivement mobilisés , le mouvement a été
+                        salué, et relayé sur de nombreux canaux de communication.
+                    </Typography>
+                    <Typography variant="body1" gutterBottom>
+                        C'est dans ces situations exceptionnelles que la solidarité de notre communauté prend tout son
+                        sens. <br/>
+                    </Typography>
+                    <Typography variant="body1" gutterBottom>
+                        - Plus de 300 élèves volontaires <br/>
+                        - Plus de 2000 visiteurs uniques en moins de 24h<br/>
+                    </Typography>
+                    <Typography variant="body1" gutterBottom>
+                        L'UE 217
+                    </Typography>
+                </DialogContent>
+            </Dialog>
         </PageContent>
     );
 }
